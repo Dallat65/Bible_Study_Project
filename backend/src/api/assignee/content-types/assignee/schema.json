@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "assignees",
+  "info": {
+    "singularName": "assignee",
+    "pluralName": "assignees",
+    "displayName": "Assignee",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "selector": {
+      "type": "string"
+    },
+    "character": {
+      "type": "string"
+    },
+    "judgeId": {
+      "type": "integer"
+    }
+  }
+}

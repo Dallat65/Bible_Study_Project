@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "judges",
+  "info": {
+    "singularName": "judge",
+    "pluralName": "judges",
+    "displayName": "Judge",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "isSelected": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
